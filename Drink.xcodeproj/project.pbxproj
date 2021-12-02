@@ -15,6 +15,7 @@
 		A06963582758769A0092A601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06963562758769A0092A601 /* LaunchScreen.storyboard */; };
 		A074A4FC275881070029037F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074A4FB275881070029037F /* Alert.swift */; };
 		A074A4FE275885560029037F /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074A4FD275885560029037F /* AddAlertViewController.swift */; };
+		A074A50027589D570029037F /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074A4FF27589D570029037F /* UNNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A06963592758769A0092A601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A074A4FB275881070029037F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = ../../../../../Applications/Alert.swift; sourceTree = "<group>"; };
 		A074A4FD275885560029037F /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
+		A074A4FF27589D570029037F /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				A074A4FD275885560029037F /* AddAlertViewController.swift */,
 				A0696351275876980092A601 /* Main.storyboard */,
 				A074A4FB275881070029037F /* Alert.swift */,
+				A074A4FF27589D570029037F /* UNNotificationCenter.swift */,
 				A06963542758769A0092A601 /* Assets.xcassets */,
 				A06963562758769A0092A601 /* LaunchScreen.storyboard */,
 				A06963592758769A0092A601 /* Info.plist */,
@@ -146,6 +149,7 @@
 			files = (
 				A0696350275876980092A601 /* ViewController.swift in Sources */,
 				A069634C275876980092A601 /* AppDelegate.swift in Sources */,
+				A074A50027589D570029037F /* UNNotificationCenter.swift in Sources */,
 				A074A4FC275881070029037F /* Alert.swift in Sources */,
 				A069634E275876980092A601 /* SceneDelegate.swift in Sources */,
 				A074A4FE275885560029037F /* AddAlertViewController.swift in Sources */,
