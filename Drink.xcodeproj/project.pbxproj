@@ -13,6 +13,8 @@
 		A0696353275876980092A601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0696351275876980092A601 /* Main.storyboard */; };
 		A06963552758769A0092A601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06963542758769A0092A601 /* Assets.xcassets */; };
 		A06963582758769A0092A601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06963562758769A0092A601 /* LaunchScreen.storyboard */; };
+		A074A4FC275881070029037F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074A4FB275881070029037F /* Alert.swift */; };
+		A074A4FE275885560029037F /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074A4FD275885560029037F /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A06963542758769A0092A601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06963572758769A0092A601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06963592758769A0092A601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A074A4FB275881070029037F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = ../../../../../Applications/Alert.swift; sourceTree = "<group>"; };
+		A074A4FD275885560029037F /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				A069634B275876980092A601 /* AppDelegate.swift */,
 				A069634D275876980092A601 /* SceneDelegate.swift */,
 				A069634F275876980092A601 /* ViewController.swift */,
+				A074A4FD275885560029037F /* AddAlertViewController.swift */,
 				A0696351275876980092A601 /* Main.storyboard */,
+				A074A4FB275881070029037F /* Alert.swift */,
 				A06963542758769A0092A601 /* Assets.xcassets */,
 				A06963562758769A0092A601 /* LaunchScreen.storyboard */,
 				A06963592758769A0092A601 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				A0696350275876980092A601 /* ViewController.swift in Sources */,
 				A069634C275876980092A601 /* AppDelegate.swift in Sources */,
+				A074A4FC275881070029037F /* Alert.swift in Sources */,
 				A069634E275876980092A601 /* SceneDelegate.swift in Sources */,
+				A074A4FE275885560029037F /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
